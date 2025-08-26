@@ -121,7 +121,7 @@ gzip -d $save_path/wiki-18.jsonl.gz
 ```bash
 pip install -U huggingface_hub
 export HF_ENDPOINT="https://hf-mirror.com"
-huggingface-cli download --repo-type dataset --resume-download xxx  --local-dir /your/path/ --local-dir-use-symlinks False
+huggingface-cli download --repo-type dataset --resume-download dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data  --local-dir /your/path/ --local-dir-use-symlinks False
 ``` 
 
 
