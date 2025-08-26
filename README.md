@@ -8,7 +8,7 @@
 <p><em>EviNote-RAG is a note-taking approach that improves how retrieved information is used in question answering.</em></p>
 
 [![Huggingface](https://img.shields.io/badge/Huggingface-Model-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/dayll/EviNoteRAG-7B)
-[![Github](https://img.shields.io/badge/Github-EviNoteRAG-000000?style=for-the-badge&logo=github)](https://github.com/Da1yuqin/EviNoteRAG_Debug)
+[![Github](https://img.shields.io/badge/Github-EviNoteRAG-000000?style=for-the-badge&logo=github)](https://github.com/Da1yuqin/EviNoteRAG)
 [![Paper](https://img.shields.io/badge/Paper-TBA-A42C25?style=for-the-badge)](https://arxiv.org/abs/2507.15846)
 [![Huggingface](https://img.shields.io/badge/Huggingface-Data-00008B?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data)
 </div>
