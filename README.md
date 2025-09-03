@@ -41,7 +41,7 @@ We proposes EviNote-RAG, a new framework to enhance Retrieval-Augmented Generati
 - [Installation](#-installation)
 - [Quick Start](#-quick-start)
 - [Evaluation](#-evaluation)
-- [Use Your Own Dataset](#-use-your-own-dataset)
+- [Use Your Own Dataset](#-use-your-own-dataset-and-Corpus)
 - [Use Your Own Search Engine](#-use-your-own-search-engine)
 - [Acknowledge](#-acknowledge)
 - [Citation](#-citation)
