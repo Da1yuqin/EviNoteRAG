@@ -244,5 +244,13 @@ Its implementation is built upon [veRL](https://github.com/volcengine/verl) and 
 We would like to sincerely thank the teams behind these projects for their invaluable contributions to open-source research and development.
 
 ## 🏷️ Citation
-
-Comming soon...
+```bash
+@misc{evinoterag,
+ title={EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes}, 
+      author={Yuqin Dai, Guoqing Wang, Yuan Wang, Kairan Dou, Kaichen Zhou, Zhanwei Zhang, Shuo Yang, Fei Tang, Jun Yin, Pengyu Zeng, Zhenzhe Ying, Can Yi, Changhua Meng, Yuchen Zhou, Yongliang Shen, Shuai Lu},
+      year={2025},
+      eprint={2509.00877},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2509.00877}
+}
+```
