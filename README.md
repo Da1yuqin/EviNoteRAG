@@ -9,7 +9,7 @@
 
 [![Huggingface](https://img.shields.io/badge/Huggingface-Model-ffcc00?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/dayll/EviNoteRAG-7B)
 [![Github](https://img.shields.io/badge/Github-EviNoteRAG-000000?style=for-the-badge&logo=github)](https://github.com/Da1yuqin/EviNoteRAG)
-[![Paper](https://img.shields.io/badge/Paper-TBA-A42C25?style=for-the-badge)](https://arxiv.org/abs/2507.15846)
+[![Paper](https://img.shields.io/badge/Paper-2509.00877-A42C25?style=for-the-badge)](https://arxiv.org/abs/2509.00877)
 [![Huggingface](https://img.shields.io/badge/Huggingface-Data-00008B?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/datasets/dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data)
 </div>
 
@@ -20,11 +20,11 @@ We proposes EviNote-RAG, a new framework to enhance Retrieval-Augmented Generati
 
 ## 🔥News
 
-[**2025-08-27**] — We’ve open-sourced our full research stack!  
+[**2025-09-03**] — We’ve open-sourced our full research stack!  
+- 📄 **Paper (arXiv)**: [arXiv:2509.00877](https://arxiv.org/abs/2509.00877)
+- 💻 **Training/Inference/Evaluation Code (GitHub)**: [EviNoteRAG](https://github.com/Da1yuqin/EviNoteRAG)
 - 🤗 **Model on Hugging Face**: [dayll/EviNoteRAG-7B](https://huggingface.co/dayll/EviNoteRAG-7B)
 - 📚 **Dataset on Hugging Face Datasets**: [dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data](https://huggingface.co/datasets/dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data)
-- 💻 **Training/Inference/Evaluation Code (GitHub)**: [EviNoteRAG](https://github.com/Da1yuqin/EviNoteRAG)
-- 📄 **Paper (arXiv)**: [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX)
 
 **What’s included**
 - End-to-end training, inference, and evaluation pipelines
