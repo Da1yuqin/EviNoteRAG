@@ -245,12 +245,10 @@ We would like to sincerely thank the teams behind these projects for their inval
 
 ## 🏷️ Citation
 ```bash
-@misc{evinoterag,
- title={EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes}, 
-      author={Yuqin Dai, Guoqing Wang, Yuan Wang, Kairan Dou, Kaichen Zhou, Zhanwei Zhang, Shuo Yang, Fei Tang, Jun Yin, Pengyu Zeng, Zhenzhe Ying, Can Yi, Changhua Meng, Yuchen Zhou, Yongliang Shen, Shuai Lu},
-      year={2025},
-      eprint={2509.00877},
-      archivePrefix={arXiv},
-      url={https://arxiv.org/abs/2509.00877}
+@article{dai2025evinote,
+  title={EviNote-RAG: Enhancing RAG Models via Answer-Supportive Evidence Notes},
+  author={Dai, Yuqin and Wang, Guoqing and Wang, Yuan and Dou, Kairan and Zhou, Kaichen and Zhang, Zhanwei and Yang, Shuo and Tang, Fei and Yin, Jun and Zeng, Pengyu and others},
+  journal={arXiv preprint arXiv:2509.00877},
+  year={2025}
 }
 ```
