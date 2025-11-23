@@ -37,14 +37,8 @@ class BaseEntailment:
 class EntailmentDeberta(BaseEntailment):
     def __init__(self, device=None):
         self.device = device if device is not None else DEVICE
-        self.tokenizer = AutoTokenizer.from_pretrained("/mnt/xhunter/xuhuan/Pretrained_Models/deberta-v2-xlarge-mnli")
-        self.model = AutoModelForSequenceClassification.from_pretrained(
-            "/mnt/xhunter/xuhuan/Pretrained_Models/deberta-v2-xlarge-mnli").to(self.device)
-
-
-        # FIXME:
-        # self.tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-v2-xlarge-mnli") 
-        # self.model = AutoModelForSequenceClassification.from_pretrained("microsoft/deberta-v2-xlarge-mnli").to(self.device)
+        self.tokenizer = AutoTokenizer.from_pretrained("microsoft/deberta-v2-xlarge-mnli") 
+        self.model = AutoModelForSequenceClassification.from_pretrained("microsoft/deberta-v2-xlarge-mnli").to(self.device)
         
         
 
