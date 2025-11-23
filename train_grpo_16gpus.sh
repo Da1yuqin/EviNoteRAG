@@ -7,7 +7,7 @@ export NCCL_SOCKET_IFNAME=eth0
 ray start --head
 
 
-export BASE_MODEL='/mnt/xhunter/xuhuan/Pretrained_Models/Qwen-7B-Instruct'
+export BASE_MODEL='Qwen/Qwen2.5-7B-Instruct'
 WAND_PROJECT='EviNoteRAG'
 EXPERIMENT_NAME='local'
 
