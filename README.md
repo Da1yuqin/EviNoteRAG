@@ -16,7 +16,7 @@
 
 
 ![mainfig](assets/mainfig_EviNoteRAG.png)
-We proposes EviNote-RAG, a new framework to enhance Retrieval-Augmented Generation (RAG) for open-domain question answering with large language models. Existing RAG methods often suffer from noisy and irrelevant retrieved content, which hampers answer quality and reasoning reliability. EviNote-RAG introduces an intermediate note-taking step: after retrieval, the model generates Supportive-Evidence Notes (SENs) that distill only the answer-critical evidence and explicitly state when no relevant information is found. These notes also annotate key and uncertain facts, mimicking human note-taking to improve focus and robustness. To guide this process, the framework incorporates an Evidence Quality Reward (EQR) based on entailment, assessing whether SENs logically support the final answer. EviNote-RAG is validated on seven QA benchmarks, achieving state-of-the-art results and demonstrating superior generalization and stability compared to strong baselines across both in-domain and out-of-domain tasks. Our findings show that evidence-based abstraction significantly improves both answer accuracy and training robustness for RAG systems.
+We proposes **EviNote-RAG**, a new framework to enhance Retrieval-Augmented Generation (RAG) for open-domain question answering with large language models. Existing RAG methods often suffer from noisy and irrelevant retrieved content, which hampers answer quality and reasoning reliability. EviNote-RAG introduces an intermediate note-taking step: after retrieval, the model generates Supportive-Evidence Notes (SENs) that distill only the answer-critical evidence and explicitly state when no relevant information is found. These notes also annotate key and uncertain facts, mimicking human note-taking to improve focus and robustness. To guide this process, the framework incorporates an Evidence Quality Reward (EQR) based on entailment, assessing whether SENs logically support the final answer. EviNote-RAG is validated on seven QA benchmarks, achieving state-of-the-art results and demonstrating superior generalization and stability compared to strong baselines across both in-domain and out-of-domain tasks. Our findings show that evidence-based abstraction significantly improves both answer accuracy and training robustness for RAG systems.
 
 ## 🔥News
 
@@ -122,7 +122,7 @@ gzip -d $save_path/wiki-18.jsonl.gz
 pip install -U huggingface_hub
 export HF_ENDPOINT="https://hf-mirror.com"
 huggingface-cli download --repo-type dataset --resume-download dayll/EviNoteRAG_nq_hotpotqa_train_and_test_data  --local-dir /your/path/ --local-dir-use-symlinks False
-``` 
+```
 
 
 (3) Launch a local retrieval server.
