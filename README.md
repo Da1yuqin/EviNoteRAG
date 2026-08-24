@@ -19,7 +19,7 @@
 We proposes **EviNote-RAG**, a new framework to enhance Retrieval-Augmented Generation (RAG) for open-domain question answering with large language models. Existing RAG methods often suffer from noisy and irrelevant retrieved content, which hampers answer quality and reasoning reliability. EviNote-RAG introduces an intermediate note-taking step: after retrieval, the model generates Supportive-Evidence Notes (SENs) that distill only the answer-critical evidence and explicitly state when no relevant information is found. These notes also annotate key and uncertain facts, mimicking human note-taking to improve focus and robustness. To guide this process, the framework incorporates an Evidence Quality Reward (EQR) based on entailment, assessing whether SENs logically support the final answer. EviNote-RAG is validated on seven QA benchmarks, achieving state-of-the-art results and demonstrating superior generalization and stability compared to strong baselines across both in-domain and out-of-domain tasks. Our findings show that evidence-based abstraction significantly improves both answer accuracy and training robustness for RAG systems.
 
 ## 🔥News
-[**2026-08-21**] — EviNote-RAG* has been accepted to EMNLP 2026 Main Conference!
+[**2026-08-21**] — EviNote-RAG has been accepted to EMNLP 2026 Main Conference!
 
 [**2025-09-03**] — We’ve open-sourced our full research stack!  
 - 📄 **Paper (arXiv)**: [arXiv:2509.00877](https://arxiv.org/abs/2509.00877)
